@@ -1,0 +1,64 @@
+.perfect2-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px 100px 20px;
+}
+
+.perfect2{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.perfect2-container .perfect2 .right img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.perfect2 .left p{
+    border-bottom: 2px solid brown;
+    padding: 15px 0;
+}
+
+.perfect2 .left button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 #571313;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.perfect2 .left button:hover{
+    box-shadow: 5px 5px 10px brown;
+}
+
+.perfect2-container h3{
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px 0 20px 0;
+}
+
+@media (max-width:820px) {
+    .perfect2{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .perfect2-container .perfect2 .right img{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .perfect2-container{
+        padding-bottom: 50px;
+    }
+}

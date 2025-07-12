@@ -1,0 +1,41 @@
+.subject{
+    width: 100%;
+    height: auto;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subject h2{
+    color: #ff6f00;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subject h1{
+    font-size: 40px;
+    padding:  10px 0 40px 0;
+}
+
+.subject .buttons button{
+    padding: 15px 40px;
+    background-color: #d85f03;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    box-shadow: 5px 5px 0 #7d3701;
+    margin: 0 10px 50px 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.subject .buttons button:hover{
+    box-shadow: 5px 5px 10px #ff6f00;
+}
+
+.subject a{
+    color: #ff6f00;
+}

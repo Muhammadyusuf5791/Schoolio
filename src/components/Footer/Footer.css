@@ -1,0 +1,60 @@
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 40px 40px 0 0;
+    color: white;
+    text-align: center;
+}
+
+.footer .nav-links{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer .nav-links h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer .nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease;
+}
+
+.footer .nav-links ul li a:hover{
+    color: orange;
+}
+
+.footer .nav-links ul li{
+    padding: 8px 0;
+}
+
+.footer .nav-links .icon{
+    font-size: 30px;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.footer .nav-links .icon:hover{
+    color: orange;
+}
+
+.footer p{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    opacity: 0.5;
+}
+
+.footer .nav-links .nav-link{
+    padding: 0 50px;
+}

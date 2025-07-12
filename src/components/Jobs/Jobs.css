@@ -1,0 +1,53 @@
+.jobs-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 100px 20px 50px 20px;
+}
+
+.jobs{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-top: 40px;
+}
+
+.jobs .left img{
+    width: 500px;
+}
+
+.jobs .right p{
+    border-bottom: 2px solid #00aeff;
+    padding: 15px 0;
+}
+
+.jobs-container h2{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.jobs-container h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+@media (max-width:850px) {
+    .jobs{
+        flex-direction: column-reverse;
+    }
+
+    .jobs-container{
+        padding: 50px 20px 0 20px;
+        text-align: center;
+    }
+
+    .jobs .left img{
+        width: 100%;
+    }
+}

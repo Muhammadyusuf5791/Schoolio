@@ -1,0 +1,39 @@
+.reting-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 20px 80px 20px;
+}
+
+.reting{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 60px;
+}
+
+.reting .right img{
+    width: 600px;
+}
+
+.reting .left p{
+    border-bottom: 2px solid blueviolet;
+    padding: 15px 0;
+}
+
+@media (max-width:900px) {
+    .reting{
+        flex-direction: column;
+    }
+
+    .reting-container{
+        text-align: center;
+    }
+
+    .reting .right img{
+        width: 100%;
+    }
+}

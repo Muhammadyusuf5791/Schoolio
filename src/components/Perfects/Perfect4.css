@@ -1,0 +1,64 @@
+.perfect4-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px 100px 20px;
+}
+
+.perfect4{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.perfect4-container .perfect4 .right img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.perfect4 .left p{
+    border-bottom: 2px solid #04ec04;
+    padding: 15px 0;
+}
+
+.perfect4 .left button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #04ec04;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 #015d01;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.perfect4 .left button:hover{
+    box-shadow: 5px 5px 10px #04ec04;
+}
+
+.perfect4-container h3{
+    color: #04ec04;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px 0 20px 0;
+}
+
+@media (max-width:820px) {
+    .perfect4{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .perfect4-container .perfect4 .right img{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .perfect4-container{
+        padding-bottom: 50px;
+    }
+}

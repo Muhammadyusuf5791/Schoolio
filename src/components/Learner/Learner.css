@@ -1,0 +1,39 @@
+.learner-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 20px;
+}
+
+.learner{
+    display: flex;
+    gap: 60px;
+}
+
+.learner .left p{
+    border-bottom: 2px solid blueviolet;
+    padding: 15px 0;
+}
+
+.learner .right img{
+    width: 500px;
+    margin-top: 20px;
+}
+
+@media (max-width:830px) {
+    .learner{
+        flex-direction: column;
+    }
+
+    .learner .right img{
+        width: 100%;
+    }
+
+    .learner-container{
+        text-align: center;
+    }
+}
